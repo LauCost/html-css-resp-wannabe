@@ -75,9 +75,18 @@ img {
 
 @media screen and (max-width: 420px) {
   
+  img{
+    height: 100px
+  }
+
+  h3{
+    margin: 0;
+  }
   /* Sezione Lezioni */
   #lezioni{
     background-color: #F2F2CD;
+    margin: -100px -10px;
+    padding-bottom: 15px;
   }
 
   .row{
@@ -92,6 +101,21 @@ img {
     width: 100%;
     float: left;
 }
+
+.right, .central{
+  margin-top: 20px;
+}
 /* /Sezione Lezioni */
 
+
+/* Sezione Steps */
+#steps{
+  margin: 0 -10px;
+}
+
+#steps .row>.left, #steps .row>.central, #steps .row>.right {
+    float: left;
+    width: 95%;
+  }
+/* /Sezione Steps */
 }
